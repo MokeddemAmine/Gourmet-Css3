@@ -1,0 +1,212 @@
+
+
+/*  common elements  */
+
+.container{
+    width:55%;
+    margin:auto;
+}
+.padding-y{
+    padding:80px 0;
+}
+
+
+/* general elements  */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+.clear{
+    clear:both;
+}
+
+
+/*  1. Header   */
+
+.header{
+    background-color:#fff;
+    position:fixed;
+    z-index:10;
+    width:100%;
+    border-bottom:1px solid #eee;
+    padding:0 10px;
+}
+.header-title{
+    width:50%;
+    float:left;
+    padding:20px;
+}
+.header-title .title{
+    text-transform:capitalize;
+    font-size:16px;
+    letter-spacing:3px;
+}
+.navbar{
+    width:50%;
+    float:left;
+    text-align:right;
+    padding:10px;
+}
+.navbar ul{
+    list-style:none;
+}
+.navbar ul li{
+    display:inline-block;
+    padding:10px;
+}
+.navbar ul li:hover{
+    background:#ccc;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:#000;
+    text-transform:capitalize;
+    letter-spacing:3px;
+}
+
+/* 2. Home  */
+
+.home{
+    height:85vh;
+    width:85%;
+    margin:auto;
+    background-image:url("../images/hamburger.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    position:relative;
+}
+.home-title{
+    position:absolute;
+    left:20px;
+    bottom:40px;
+    font-size:40px;
+    text-transform:capitalize;
+    letter-spacing:5px;
+    opacity:0.5;
+}
+
+/* 3. about catering  */
+
+.about-catering, .menu{
+    border-bottom:1px solid #eee;
+}
+
+.about-catering-img, .about-catering-info, .menu-info{
+    width:50%;
+    float:left;
+}
+.about-catering-img img{
+    width:100%;
+    opacity:0.8;
+}
+.about-catering-info{
+    padding: 20px 0 0 40px;
+    text-align:center;
+}
+.about-catering-info .title, .menu-info .title{
+    text-transform:capitalize;
+    letter-spacing:5px;
+    font-size:35px;
+    font-weight:400;
+}
+.about-catering-info .sous-title{
+    padding:40px 0 20px 0;
+    letter-spacing:5px;
+    font-weight:400;
+}
+.first-p , .second-p{
+    font-size:18px;
+    line-height:1.5;
+}
+.about-catering-info .first-p span{
+    background-color:#eee;
+    padding:3px;
+}
+.about-catering-info .second-p{
+    color:#777;
+    margin-top:40px;
+}
+
+/* 4. our menu  */
+
+.menu-info{
+    padding:20px 40px 0 0;
+}
+
+.menu-info .title{
+    text-align:center;
+}
+.menu-info-choices dt{
+    font-size:22px;
+    text-transform:capitalize;
+    letter-spacing:5px;
+    margin-top:50px;
+}
+.menu-info-choices dd{
+    margin-top:20px;
+    color:#999;
+}
+
+/* 5. contact  */
+
+.contact .title{
+    font-size:35px;
+    text-transform:capitalize;
+    font-weight:400;
+    letter-spacing:5px;
+    margin-bottom:50px;
+}
+.contact .paragraph1{
+    font-size:15px;
+}
+.contact .paragraph2{
+    color:darkcyan;
+    margin:30px 0;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-size:18px;
+}
+.contact .paragraph3{
+    margin-bottom:30px;
+    font-size:15px;
+}
+.contact input[type="text"] {
+    width:100%;
+    border:none;
+    border-bottom:2px solid #eee;
+    padding:20px 5px;
+    margin-bottom:10px;
+}
+
+.contact input[type="submit"] {
+    border:none;
+    width:150px;
+    height:40px;
+    margin-top:20px;
+    font-size:15px;
+    text-transform:uppercase;
+    cursor:pointer;
+}
+.contact input[type="submit"]:hover{
+    background-color:#ccc;
+}
+
+/* footer */
+
+.footer{
+    height:120px;
+    background-color:#eee;
+    text-align:center;
+}
+.footer-link{
+    padding-top:50px;
+}
+.footer-link a{
+    color:#000;
+}
+.footer-link a:hover {
+    color:darkgreen;
+}
